@@ -1,0 +1,6 @@
+﻿{
+  "appid": "your_wechat_appid",
+  "appsecret": "your_wechat_appsecret",
+  "author": "你的公众号作者名",
+  "images_dir": "C:/path/to/images"
+}

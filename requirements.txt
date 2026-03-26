@@ -1,0 +1,11 @@
+# WeChat Article Writer Skill Requirements
+
+# HTTP requests
+requests>=2.31.0
+
+# Web scraping (for fetching web content)
+beautifulsoup4>=4.12.0
+lxml>=4.9.0
+
+# Image processing
+Pillow>=10.0.0

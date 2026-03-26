@@ -1,0 +1,6 @@
+﻿{
+  "appid": "your_wechat_appid",
+  "appsecret": "your_wechat_appsecret",
+  "author": "profile_author",
+  "topic": "profile_topic"
+}

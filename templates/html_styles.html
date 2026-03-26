@@ -1,0 +1,220 @@
+# 微信公众号HTML样式定义
+
+本文档定义了所有用于微信公众号的内联CSS样式。
+
+## 全局样式
+
+```css
+font-size: 16px;
+line-height: 1.9;
+color: #333;
+margin-bottom: 25px;
+font-family: "PingFang SC", -apple-system, BlinkMacSystemFont, "Helvetica Neue", Arial, sans-serif;
+```
+
+## 金句样式
+
+用于突出重要观点和核心思想。
+
+```css
+background: #f0fbf4;
+border-left: 4px solid #38c76e;
+font-size: 18px;
+font-weight: bold;
+color: #2d3436;
+padding: 20px;
+border-radius: 8px;
+margin: 25px 0;
+line-height: 1.8;
+```
+
+### 使用方式
+
+**方式一: Markdown加粗**
+```
+**真正的年轻化不是简单地填平皱纹，而是恢复组织的活力和再生能力。**
+```
+
+**方式二: 三引号包裹**
+```
+"""真正的年轻化不是简单地填平皱纹，而是恢复组织的活力和再生能力。"""
+```
+
+## 高亮块样式
+
+用于突出核心要点、重要信息。
+
+```css
+background: #eaf7f0;
+border-radius: 8px;
+padding: 20px;
+margin: 25px 0;
+box-shadow: 0 2px 10px rgba(0,0,0,0.08);
+```
+
+### 标题样式
+```css
+font-size: 16px;
+font-weight: bold;
+color: #38c76e;
+margin-bottom: 12px;
+```
+
+### 内容样式
+```css
+font-size: 15px;
+line-height: 1.8;
+color: #333;
+```
+
+### 使用方式
+```
+[[高亮:核心要点|PLLA的三大利器:长效、安全、自然]]
+```
+
+## 引用块样式
+
+用于引用文献、专家观点等。
+
+```css
+border-left: 3px solid #38c76e;
+background: #f5f5f5;
+font-style: italic;
+padding: 15px 20px;
+margin: 25px 0;
+color: #555;
+line-height: 1.8;
+border-radius: 4px;
+```
+
+### 出处样式
+```css
+font-size: 13px;
+color: #888;
+margin-top: 10px;
+font-style: normal;
+```
+
+### 使用方式
+```
+> PLLA代表了一类重要的生物刺激剂，它通过激活宿主反应来产生治疗效果。
+> — Dermatologic Surgery 2024
+```
+
+## 小节标题样式
+
+用于文章中的小节标题。
+
+```css
+font-size: 19px;
+font-weight: bold;
+color: #2f7d52;
+margin-top: 40px;
+margin-bottom: 20px;
+padding-left: 15px;
+border-left: 5px solid #38c76e;
+line-height: 1.4;
+```
+
+### 使用方式
+```
+### PLLA目前面临的三大问题
+```
+
+## 数据卡片样式
+
+用于展示重要数据、统计信息。
+
+```css
+background: white;
+border: 1px solid #e0e0e0;
+border-radius: 12px;
+padding: 20px;
+margin: 25px 0;
+box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+text-align: center;
+```
+
+### 数据值样式
+```css
+font-size: 32px;
+font-weight: bold;
+color: #38c76e;
+margin: 10px 0;
+```
+
+### 数据标签样式
+```css
+font-size: 14px;
+color: #666;
+margin-bottom: 5px;
+```
+
+### 数据来源样式
+```css
+font-size: 12px;
+color: #999;
+margin-top: 10px;
+```
+
+## 链接样式
+
+```css
+color: #38c76e;
+text-decoration: none;
+border-bottom: 1px solid transparent;
+transition: border-color 0.3s;
+```
+
+### 链接悬停效果
+```css
+border-bottom-color: #38c76e;
+```
+
+## 分割线样式
+
+```css
+border: none;
+border-top: 2px solid #e0e0e0;
+margin: 40px 0;
+```
+
+## 图片样式
+
+```css
+max-width: 100%;
+height: auto;
+display: block;
+margin: 25px auto;
+border-radius: 12px;
+box-shadow: 0 6px 16px rgba(0,0,0,0.12);
+```
+
+### 图片说明样式
+```css
+font-size: 13px;
+color: #888;
+text-align: center;
+margin-top: 10px;
+margin-bottom: 25px;
+```
+
+## 列表样式
+
+```css
+margin: 20px 0;
+padding-left: 20px;
+```
+
+### 列表项样式
+```css
+margin-bottom: 12px;
+line-height: 1.8;
+color: #333;
+```
+
+### 列表标记样式
+```css
+color: #38c76e;
+font-weight: bold;
+```
