@@ -4,6 +4,12 @@
 
 这个仓库公开版只保留可分享的核心代码和示例配置，不包含任何真实凭证、运行产物、草稿内容或图片缓存。
 
+文档入口：
+
+- [SETUP_GUIDE.md](./SETUP_GUIDE.md)
+- [BEGINNER_GUIDE_ZH.md](./BEGINNER_GUIDE_ZH.md)
+- [README_SECURITY.md](./README_SECURITY.md)
+
 ## Features
 
 - Markdown 转公众号 HTML
